@@ -1,0 +1,36 @@
+.custom-navbar {
+  background-color: #343a40;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  opacity: 0.8;
+  height: 100px;
+  margin-top: -25px;
+  display: flex;
+  
+}
+
+.custom-navbar .navbar-brand {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.custom-navbar .nav-link {
+  color: #f8f9fa;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #00aaff;
+}
+
+.custom-navbar .nav-link.active {
+  color: #00aaff;
+  font-weight: bold;
+}
+
+.custom-navbar .navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}

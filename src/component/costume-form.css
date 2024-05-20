@@ -1,0 +1,8 @@
+.custom-form-container {
+    max-width: 500px; /* Optional: set a maximum width for the form */
+    width: 100%;
+    background-color: rgba(165, 135, 135, 0.7); /* White with 70% opacity */
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.8;
+  }
